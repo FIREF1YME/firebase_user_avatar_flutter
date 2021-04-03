@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
           create: (_) => ImagePickerService(),
         ),
       ],
+      //rubbish comments
       child: AuthWidgetBuilder(builder: (context, userSnapshot) {
         return MaterialApp(
           theme: ThemeData(primarySwatch: Colors.indigo),
